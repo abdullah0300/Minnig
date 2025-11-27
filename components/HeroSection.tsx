@@ -119,7 +119,7 @@ export default function HeroSection() {
 
         {/* Sector text - positioned far right below ING */}
         <p
-          className={`font-inter font-normal text-[16px] xs:text-[16px] sm:text-[18px] md:text-[22px] lg:text-[26px] text-[#1d1d1d] absolute whitespace-nowrap right-[4%] sm:right-[5%] md:right-[6%] lg:right-[57px] top-[220px] xs:top-[230px] sm:top-[260px] md:top-[300px] lg:top-[350px] transition-all duration-1000 ease-out ${
+          className={`font-inter font-normal text-[16px] xs:text-[16px] sm:text-[18px] md:text-[22px] lg:text-[26px] text-[#1d1d1d] absolute whitespace-nowrap right-[4%] sm:right-[5%] md:right-[6%] lg:right-[257px] top-[220px] xs:top-[230px] sm:top-[260px] md:top-[300px] lg:top-[350px] transition-all duration-1000 ease-out ${
             isAnimated ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
