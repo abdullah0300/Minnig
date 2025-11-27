@@ -15,7 +15,7 @@ export default function WhoWeAre() {
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none z-0">
               <p
                 className="font-source-serif font-semibold text-[100px] xs:text-[120px] sm:text-[160px] md:text-[200px] lg:text-[246px] leading-[100px] xs:leading-[120px] sm:leading-[140px] md:leading-[157px] tracking-[5px] xs:tracking-[6px] sm:tracking-[8px] md:tracking-[10px] lg:tracking-[12.3px] whitespace-nowrap"
-                style={{ color: "rgba(0, 0, 0, 0.44)", opacity: 0.05 }}
+                style={{ color: "rgba(0, 0, 0, 0.44)", opacity: 0.08 }}
               >
                 WE ARE
               </p>
@@ -33,7 +33,7 @@ export default function WhoWeAre() {
           </div>
 
           {/* Two Column Layout */}
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 xl:gap-16 items-start max-w-[1200px] mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16 items-start max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-36">
             {/* Left Column - Description */}
             <div className="order-2 lg:order-1">
               <p className="font-arial text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[22px] xs:leading-[24px] sm:leading-[26px] md:leading-[30px] lg:leading-[33px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
@@ -44,8 +44,8 @@ export default function WhoWeAre() {
             {/* Right Column - Achievements */}
             <div className="order-1 lg:order-2 space-y-4 sm:space-y-5 md:space-y-6">
               {/* Achievement 1 */}
-              <div className="flex items-start gap-3 sm:gap-4">
-                <div className="flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-1">
+              <div className="flex items-center gap-3 sm:gap-4">
+                <div className="flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8">
                   <svg
                     viewBox="0 0 24 24"
                     fill="none"
@@ -58,14 +58,14 @@ export default function WhoWeAre() {
                     />
                   </svg>
                 </div>
-                <p className="font-arial font-normal text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[40px] xs:leading-[45px] sm:leading-[50px] md:leading-[55px] lg:leading-[60px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
+                <p className="font-arial font-normal text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[20px] xs:leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[30px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
                   10+ Successful Licence Facilitation Project
                 </p>
               </div>
 
               {/* Achievement 2 */}
-              <div className="flex items-start gap-3 sm:gap-4">
-                <div className="flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-1">
+              <div className="flex items-center gap-3 sm:gap-4">
+                <div className="flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8">
                   <svg
                     viewBox="0 0 24 24"
                     fill="none"
@@ -78,14 +78,14 @@ export default function WhoWeAre() {
                     />
                   </svg>
                 </div>
-                <p className="font-arial font-normal text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[40px] xs:leading-[45px] sm:leading-[50px] md:leading-[55px] lg:leading-[60px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
+                <p className="font-arial font-normal text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[20px] xs:leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[30px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
                   100% Regulatory Compliance Record
                 </p>
               </div>
 
               {/* Achievement 3 */}
-              <div className="flex items-start gap-3 sm:gap-4">
-                <div className="flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-1">
+              <div className="flex items-center gap-3 sm:gap-4">
+                <div className="flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8">
                   <svg
                     viewBox="0 0 24 24"
                     fill="none"
@@ -98,7 +98,7 @@ export default function WhoWeAre() {
                     />
                   </svg>
                 </div>
-                <p className="font-arial font-normal text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[40px] xs:leading-[45px] sm:leading-[50px] md:leading-[55px] lg:leading-[60px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
+                <p className="font-arial font-normal text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[20px] xs:leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[30px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
                   Active Partnerships Across East Africa
                 </p>
               </div>

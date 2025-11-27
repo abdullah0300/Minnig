@@ -43,29 +43,32 @@ export default function Header() {
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8 xl:gap-12">
             <a
-              href="#home"
+              href="/"
               className="font-inter text-[15px] xl:text-[16px] text-black/80 hover:text-primary transition-all duration-300 relative group"
             >
               Home
               <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full" />
             </a>
             <a
-              href="#about"
+              href="/about"
               className="font-inter text-[15px] xl:text-[16px] text-black/80 hover:text-primary transition-all duration-300 relative group"
             >
               About
               <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full" />
             </a>
             <a
-              href="#services"
+              href="/services"
               className="font-inter text-[15px] xl:text-[16px] text-black/80 hover:text-primary transition-all duration-300 relative group"
             >
               Services
               <span className="absolute -bottom-1 left-0 w-0 h-[2px] bg-primary transition-all duration-300 group-hover:w-full" />
             </a>
-            <button className="bg-[#85640e] text-white font-inter text-[13px] px-7 py-2.5 rounded-full hover:bg-[#85640e]/90 transition-all duration-300 hover:scale-105">
+            <a
+              href="/contact"
+              className="bg-[#85640e] text-white font-inter text-[13px] px-7 py-2.5 rounded-full hover:bg-[#85640e]/90 transition-all duration-300 hover:scale-105 inline-block"
+            >
               Contact Us
-            </button>
+            </a>
           </nav>
 
           {/* Mobile Menu Button */}
@@ -106,9 +109,9 @@ export default function Header() {
         {/* Menu Content */}
         <nav className="h-full flex flex-col items-center justify-center px-8 space-y-2">
           {[
-            { name: "Home", href: "#home", delay: "100" },
-            { name: "About", href: "#about", delay: "200" },
-            { name: "Services", href: "#services", delay: "300" },
+            { name: "Home", href: "/", delay: "100" },
+            { name: "About", href: "/about", delay: "200" },
+            { name: "Services", href: "/services", delay: "300" },
           ].map((item, index) => (
             <a
               key={item.name}
@@ -128,7 +131,8 @@ export default function Header() {
           ))}
 
           {/* Contact Button - Mobile */}
-          <button
+          <a
+            href="/contact"
             onClick={() => setMobileMenuOpen(false)}
             className={`mt-12 bg-[#85640e] text-white font-inter text-[16px] px-12 py-4 rounded-full hover:bg-[#85640e]/90 transition-all duration-500 hover:scale-105 transform ${
               mobileMenuOpen
@@ -140,7 +144,7 @@ export default function Header() {
             }}
           >
             Contact Us
-          </button>
+          </a>
 
           {/* Social Links or Additional Info */}
           <div
