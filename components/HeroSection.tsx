@@ -33,7 +33,7 @@ export default function HeroSection() {
   return (
     <section
       id="home"
-      className="bg-white border border-[rgba(0,0,0,0.21)] min-h-[550px] sm:min-h-[580px] md:min-h-[620px] lg:h-[650px] w-full mt-[70px] sm:mt-[90px] relative overflow-hidden pb-10 sm:pb-8 md:pb-0"
+      className="bg-white  min-h-[550px] sm:min-h-[580px] md:min-h-[620px] lg:h-[650px] w-full mt-[70px] sm:mt-[90px] relative overflow-hidden pb-10 sm:pb-8 md:pb-0"
     >
       <div className="max-w-[1440px] mx-auto h-full relative px-4 sm:px-6 lg:px-8">
         {/* Subtitle - Top */}

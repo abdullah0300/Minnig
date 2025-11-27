@@ -3,7 +3,9 @@
     "allow": [
       "WebFetch(domain:127.0.0.1)",
       "Bash(curl:*)",
-      "Bash(npm install)"
+      "Bash(npm install)",
+      "mcp__figma__get_screenshot",
+      "mcp__figma__get_design_context"
     ],
     "deny": [],
     "ask": []

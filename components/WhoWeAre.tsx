@@ -1,72 +1,108 @@
-import Image from "next/image";
+"use client";
 
 export default function WhoWeAre() {
   return (
-    <section id="about" className="relative py-20 max-w-[1440px] mx-auto">
-      {/* Background Text */}
-      <div className="absolute left-1/2 top-[72px] -translate-x-1/2 -translate-y-1/2 opacity-5">
-        <h2 className="font-source-serif font-semibold text-[246.019px] text-[rgba(0,0,0,0.44)] tracking-[12.3009px] leading-[157.179px]">
-          WE ARE
-        </h2>
-      </div>
-
-      {/* Section Title */}
-      <div className="text-center mb-16 relative z-10">
-        <h2 className="font-urbanist font-extrabold text-[36px] text-primary tracking-[1.8px] leading-[46px] mb-4">
-          WHO WE ARE
-        </h2>
-        <p className="font-urbanist font-semibold text-[28px] text-[#585858] tracking-[0.84px] leading-[35px] max-w-[600px] mx-auto">
-          Building Bridges Between Global Investors
-          <br />
-          & Local Opportunities
-        </p>
-      </div>
-
-      {/* Content Grid */}
-      <div className="grid grid-cols-2 gap-16 px-20 relative z-10">
-        {/* Left Column - Text */}
-        <div>
-          <p className="font-arial text-[20px] leading-[33px] text-secondary tracking-[0.4px] mb-12">
-            WorldShine Mining Company Limited is a Tanzanian liaison and project management firm that simplifies entry into the mining sector. We connect international investors with compliant licences, local partnerships, and supply networks — ensuring every project runs efficiently and responsibly.
-          </p>
-        </div>
-
-        {/* Right Column - List Items */}
-        <div className="space-y-6">
-          <div className="flex items-start gap-4">
-            <div className="w-8 h-8 flex-shrink-0">
-              <svg className="w-full h-full text-green-500" viewBox="0 0 32 32" fill="currentColor">
-                <circle cx="16" cy="16" r="16" opacity="0.2" />
-                <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm7.707 11.707l-8 8a.999.999 0 0 1-1.414 0l-4-4a.999.999 0 1 1 1.414-1.414L15 19.586l7.293-7.293a.999.999 0 1 1 1.414 1.414z" />
-              </svg>
+    <section
+      id="who-we-are"
+      className="bg-white min-h-[600px] w-full py-12 sm:py-16 md:py-20 lg:py-24 relative overflow-hidden"
+    >
+      <div className="max-w-[1440px] mx-auto h-full relative px-4 sm:px-6 lg:px-8">
+        {/* Main Content */}
+        <div className="relative">
+          {/* Header Section with Background Watermark */}
+          <div className="relative mb-10 sm:mb-12 md:mb-14 lg:mb-16">
+            {/* Background Watermark "WE ARE" - positioned behind heading */}
+            <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 pointer-events-none select-none z-0">
+              <p
+                className="font-source-serif font-semibold text-[100px] xs:text-[120px] sm:text-[160px] md:text-[200px] lg:text-[246px] leading-[100px] xs:leading-[120px] sm:leading-[140px] md:leading-[157px] tracking-[5px] xs:tracking-[6px] sm:tracking-[8px] md:tracking-[10px] lg:tracking-[12.3px] whitespace-nowrap"
+                style={{ color: "rgba(0, 0, 0, 0.44)", opacity: 0.05 }}
+              >
+                WE ARE
+              </p>
             </div>
-            <p className="font-arial text-[20px] leading-[60px] text-secondary tracking-[0.4px]">
-              10+ Successful Licence Facilitation Project
+
+            {/* Section Heading */}
+            <h2 className="font-urbanist font-extrabold text-[22px] xs:text-[24px] sm:text-[28px] md:text-[32px] lg:text-[36px] text-[#85640e] tracking-[1.1px] xs:tracking-[1.2px] sm:tracking-[1.4px] md:tracking-[1.6px] lg:tracking-[1.8px] leading-[32px] xs:leading-[36px] sm:leading-[40px] md:leading-[43px] lg:leading-[46px] text-center mb-4 sm:mb-5 md:mb-6 relative z-10 uppercase">
+              WHO WE ARE
+            </h2>
+
+            {/* Subtitle */}
+            <p className="font-urbanist font-semibold text-[16px] xs:text-[18px] sm:text-[20px] md:text-[24px] lg:text-[28px] leading-[24px] xs:leading-[28px] sm:leading-[30px] md:leading-[33px] lg:leading-[35px] text-[#585858] tracking-[0.48px] xs:tracking-[0.54px] sm:tracking-[0.6px] md:tracking-[0.72px] lg:tracking-[0.84px] text-center max-w-[280px] xs:max-w-[350px] sm:max-w-[500px] md:max-w-[700px] lg:max-w-[900px] mx-auto px-2 relative z-10">
+              Building Bridges Between Global Investors & Local Opportunities
             </p>
           </div>
 
-          <div className="flex items-start gap-4">
-            <div className="w-8 h-8 flex-shrink-0">
-              <svg className="w-full h-full text-green-500" viewBox="0 0 32 32" fill="currentColor">
-                <circle cx="16" cy="16" r="16" opacity="0.2" />
-                <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm7.707 11.707l-8 8a.999.999 0 0 1-1.414 0l-4-4a.999.999 0 1 1 1.414-1.414L15 19.586l7.293-7.293a.999.999 0 1 1 1.414 1.414z" />
-              </svg>
+          {/* Two Column Layout */}
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-12 xl:gap-16 items-start max-w-[1200px] mx-auto">
+            {/* Left Column - Description */}
+            <div className="order-2 lg:order-1">
+              <p className="font-arial text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[22px] xs:leading-[24px] sm:leading-[26px] md:leading-[30px] lg:leading-[33px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
+                WorldShine Mining Company Limited is a Tanzanian liaison and project management firm that simplifies entry into the mining sector. We connect international investors with compliant licences, local partnerships, and supply networks — ensuring every project runs efficiently and responsibly.
+              </p>
             </div>
-            <p className="font-arial text-[20px] leading-[60px] text-secondary tracking-[0.4px]">
-              100% Regulatory Compliance Record
-            </p>
-          </div>
 
-          <div className="flex items-start gap-4">
-            <div className="w-8 h-8 flex-shrink-0">
-              <svg className="w-full h-full text-green-500" viewBox="0 0 32 32" fill="currentColor">
-                <circle cx="16" cy="16" r="16" opacity="0.2" />
-                <path d="M16 2C8.268 2 2 8.268 2 16s6.268 14 14 14 14-6.268 14-14S23.732 2 16 2zm7.707 11.707l-8 8a.999.999 0 0 1-1.414 0l-4-4a.999.999 0 1 1 1.414-1.414L15 19.586l7.293-7.293a.999.999 0 1 1 1.414 1.414z" />
-              </svg>
+            {/* Right Column - Achievements */}
+            <div className="order-1 lg:order-2 space-y-4 sm:space-y-5 md:space-y-6">
+              {/* Achievement 1 */}
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-1">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-full h-full"
+                  >
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z"
+                      fill="#85640e"
+                    />
+                  </svg>
+                </div>
+                <p className="font-arial font-normal text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[40px] xs:leading-[45px] sm:leading-[50px] md:leading-[55px] lg:leading-[60px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
+                  10+ Successful Licence Facilitation Project
+                </p>
+              </div>
+
+              {/* Achievement 2 */}
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-1">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-full h-full"
+                  >
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z"
+                      fill="#85640e"
+                    />
+                  </svg>
+                </div>
+                <p className="font-arial font-normal text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[40px] xs:leading-[45px] sm:leading-[50px] md:leading-[55px] lg:leading-[60px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
+                  100% Regulatory Compliance Record
+                </p>
+              </div>
+
+              {/* Achievement 3 */}
+              <div className="flex items-start gap-3 sm:gap-4">
+                <div className="flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 md:w-8 md:h-8 mt-1">
+                  <svg
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="w-full h-full"
+                  >
+                    <path
+                      d="M12 2C6.48 2 2 6.48 2 12C2 17.52 6.48 22 12 22C17.52 22 22 17.52 22 12C22 6.48 17.52 2 12 2ZM10 17L5 12L6.41 10.59L10 14.17L17.59 6.58L19 8L10 17Z"
+                      fill="#85640e"
+                    />
+                  </svg>
+                </div>
+                <p className="font-arial font-normal text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[40px] xs:leading-[45px] sm:leading-[50px] md:leading-[55px] lg:leading-[60px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
+                  Active Partnerships Across East Africa
+                </p>
+              </div>
             </div>
-            <p className="font-arial text-[20px] leading-[60px] text-secondary tracking-[0.4px]">
-              Active Partnerships Across East Africa
-            </p>
           </div>
         </div>
       </div>
