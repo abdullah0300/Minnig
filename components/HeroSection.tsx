@@ -14,10 +14,15 @@ export default function HeroSection() {
     const handleResize = () => setWindowWidth(window.innerWidth);
     window.addEventListener('resize', handleResize);
 
-    // Trigger animation after component mounts
+    // Trigger animation only on desktop (>= 768px)
     const timer = setTimeout(() => {
-      setIsAnimated(true);
-    }, 500);
+      if (window.innerWidth >= 768) {
+        setIsAnimated(true);
+      } else {
+        // On mobile, set to animated state immediately (no animation)
+        setIsAnimated(true);
+      }
+    }, window.innerWidth >= 768 ? 500 : 0);
 
     return () => {
       clearTimeout(timer);
