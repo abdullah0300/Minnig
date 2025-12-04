@@ -15,10 +15,10 @@ export default function Footer() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <p className="font-source-serif text-[48px] sm:text-[56px] md:text-[64px] leading-tight text-white mb-6">
-                World<span className="italic">Shine</span>
+                Serena <span className="italic">Attorneys</span>
               </p>
               <p className="font-inter text-[16px] sm:text-[18px] leading-relaxed text-white/80 max-w-[500px]">
-                Your trusted gateway to Tanzania's mining sector. Enabling global investors with licenses, partnerships, and operational support.
+                Legal, Tax & Immigration Services. We help local enterprises and multinational companies operating in Tanzania navigate complex legal, regulatory, and tax challenges with confidence and clarity.
               </p>
             </div>
 
@@ -98,7 +98,7 @@ export default function Footer() {
                   <svg className="w-5 h-5 text-white mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                   </svg>
-                  <a href="mailto:infoexample@gmail.com" className="font-rubik text-[15px] text-white/75 hover:text-white transition-colors duration-200">infoexample@gmail.com</a>
+                  <a href="mailto:clientservices@serenaattorneys.com" className="font-rubik text-[15px] text-white/75 hover:text-white transition-colors duration-200">clientservices@serenaattorneys.com</a>
                 </li>
                 <li className="flex items-start gap-3">
                   <svg className="w-5 h-5 text-white mt-0.5 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -122,7 +122,7 @@ export default function Footer() {
         <div className="py-8">
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="font-rubik text-[14px] text-white/60 text-center sm:text-left">
-              © 2025 WorldShine Mining Company. All rights reserved.
+              © 2025 Serena Attorneys. All rights reserved.
             </p>
             <p className="font-rubik text-[14px] text-white/60 text-center sm:text-right">
               Designed and Developed by{" "}

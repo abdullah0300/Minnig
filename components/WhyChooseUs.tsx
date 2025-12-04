@@ -23,7 +23,7 @@ export default function WhyChooseUs() {
             className="font-normal text-[24px] xs:text-[28px] sm:text-[36px] md:text-[48px] lg:text-[66px] leading-[32px] xs:leading-[36px] sm:leading-[44px] md:leading-[56px] lg:leading-[34px] text-[#85640e] tracking-[1.2px] xs:tracking-[1.4px] sm:tracking-[1.8px] md:tracking-[2.4px] lg:tracking-[2.8px] whitespace-nowrap not-italic inline-block mb-20 relative z-10"
             style={{ fontFamily: "Source Serif Pro" }}
           >
-            Smart. Compliant. Connected.
+            Our Approach
           </p>
         </div>
 
@@ -36,9 +36,7 @@ export default function WhyChooseUs() {
               Choose Us
             </h2>
             <p className="font-inter text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[19px] leading-[22px] xs:leading-[24px] sm:leading-[26px] md:leading-[28px] lg:leading-[30px] text-[#1d1d1b] max-w-[480px]">
-              With deep regulatory access, proven commercial experience, and trusted
-              local networks, we deliver seamless project execution from planning to
-              operation.
+              At Serena Attorneys, we believe that lasting client success begins with a deep understanding of the business behind every brief. By combining legal insight with tax and regulatory expertise, we help companies operate responsibly, mitigate risk, and unlock sustainable growth.
             </p>
           </div>
 
@@ -67,10 +65,10 @@ export default function WhyChooseUs() {
               </div>
               <div>
                 <h3 className="font-urbanist font-semibold text-[18px] xs:text-[20px] sm:text-[22px] md:text-[24px] lg:text-[26px] leading-[24px] xs:leading-[26px] sm:leading-[28px] md:leading-[32px] lg:leading-[34px] text-[#1d1d1b] mb-1 sm:mb-2">
-                  Regulatory Access
+                  Integrated Expertise
                 </h3>
                 <p className="font-inter text-[13px] xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] xs:leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[28px] text-[#575757]">
-                  Navigate approvals with confidence.
+                  Our legal and tax teams work seamlessly together. This integrated model ensures that every solution—whether in compliance, structuring, or advisory—is practical, coordinated, and aligned with your broader business strategy.
                 </p>
               </div>
             </div>
@@ -113,18 +111,54 @@ export default function WhyChooseUs() {
               </div>
               <div>
                 <h3 className="font-urbanist font-semibold text-[18px] xs:text-[20px] sm:text-[22px] md:text-[24px] lg:text-[26px] leading-[24px] xs:leading-[26px] sm:leading-[28px] md:leading-[32px] lg:leading-[34px] text-[#1d1d1b] mb-1 sm:mb-2">
-                  Commercial Delivery
+                  Client-Centered Collaboration
                 </h3>
                 <p className="font-inter text-[13px] xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] xs:leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[28px] text-[#575757]">
-                  Optimise tenders and contracts.
+                  We prioritize transparent, proactive communication at every stage, so you&apos;re always informed and empowered to make confident decisions.
                 </p>
               </div>
             </div>
 
-            {/* Benefit 3: Sustainable Impact */}
+            {/* Benefit 3: Responsible Compliance */}
             <div className="flex gap-3 sm:gap-4 md:gap-5">
               <div className="flex-shrink-0 w-[36px] h-[36px] sm:w-[40px] sm:h-[40px] md:w-[44px] md:h-[44px]">
-                {/* Icon: Globe with Leaf */}
+                {/* Icon: Shield */}
+                <svg
+                  viewBox="0 0 50 50"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="w-full h-full"
+                >
+                  <path
+                    d="M25 10L15 15V23C15 29 19 34 25 40C31 34 35 29 35 23V15L25 10Z"
+                    stroke="#85640e"
+                    strokeWidth="2"
+                    fill="none"
+                  />
+                  <path
+                    d="M21 25L24 28L29 22"
+                    stroke="#85640e"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    fill="none"
+                  />
+                </svg>
+              </div>
+              <div>
+                <h3 className="font-urbanist font-semibold text-[18px] xs:text-[20px] sm:text-[22px] md:text-[24px] lg:text-[26px] leading-[24px] xs:leading-[26px] sm:leading-[28px] md:leading-[32px] lg:leading-[34px] text-[#1d1d1b] mb-1 sm:mb-2">
+                  Responsible Compliance
+                </h3>
+                <p className="font-inter text-[13px] xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] xs:leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[28px] text-[#575757]">
+                  We manage your legal and tax obligations with integrity and foresight, helping you stay compliant today while preparing for tomorrow&apos;s challenges.
+                </p>
+              </div>
+            </div>
+
+            {/* Benefit 4: Local Insight, National Reach */}
+            <div className="flex gap-3 sm:gap-4 md:gap-5">
+              <div className="flex-shrink-0 w-[36px] h-[36px] sm:w-[40px] sm:h-[40px] md:w-[44px] md:h-[44px]">
+                {/* Icon: Globe */}
                 <svg
                   viewBox="0 0 50 50"
                   fill="none"
@@ -150,10 +184,10 @@ export default function WhyChooseUs() {
               </div>
               <div>
                 <h3 className="font-urbanist font-semibold text-[18px] xs:text-[20px] sm:text-[22px] md:text-[24px] lg:text-[26px] leading-[24px] xs:leading-[26px] sm:leading-[28px] md:leading-[32px] lg:leading-[34px] text-[#1d1d1b] mb-1 sm:mb-2">
-                  Sustainable Impact
+                  Local Insight, National Reach
                 </h3>
                 <p className="font-inter text-[13px] xs:text-[14px] sm:text-[15px] md:text-[16px] lg:text-[17px] leading-[20px] xs:leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[28px] text-[#575757]">
-                  Align with global ESG standards.
+                  Rooted in Tanzania, we bring deep knowledge of the country&apos;s legal, tax, and regulatory landscape. Our understanding of government processes and business culture allows us to support clients across sectors and regions within Tanzania with precision and confidence.
                 </p>
               </div>
             </div>

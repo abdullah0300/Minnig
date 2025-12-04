@@ -9,63 +9,66 @@ export default function ServicesPage() {
 
   const services = [
     {
-      title: "Licensing & Compliance",
-      shortDesc: "Secure permits and approvals faster.",
-      fullDesc: "Navigate Tanzania's regulatory landscape with confidence. We handle mining licences, environmental permits, and ongoing compliance to keep your operations legally sound and fully approved.",
+      title: "Legal Services",
+      shortDesc: "Comprehensive Legal Solutions for Your Business",
+      fullDesc: "We help businesses navigate complex legal, regulatory, and commercial challenges, providing actionable advice that protects your interests and supports sustainable growth. We serve local and multinational companies across multiple sectors.",
       image: "https://res.cloudinary.com/ddgzjzd9q/image/upload/v1764275560/Licensing_Compliance_sjtxrw.png",
       benefits: [
-        "Mining License Applications",
-        "Environmental Impact Assessments",
-        "Regulatory Compliance Audits",
-        "Permit Renewals & Extensions"
+        "Corporate & Commercial Law",
+        "Mergers & Acquisitions",
+        "Regulatory Compliance",
+        "Dispute Resolution",
+        "Employment & Compensation",
+        "Intellectual Property",
+        "Banking & Finance",
+        "Real Estate & Property"
       ]
     },
     {
-      title: "Tendering & Bid Support",
-      shortDesc: "Win tenders with expert documentation.",
-      fullDesc: "Maximize your chances of securing contracts with professionally prepared tender documents, competitive pricing strategies, and complete bid management support.",
+      title: "Tax Services",
+      shortDesc: "Tax Solutions that Drive Compliance and Growth",
+      fullDesc: "At Serena Consulting, we go beyond advice, we partner with your business to implement practical tax strategies that reduce risk, ensure compliance, and support sustainable growth. Whether you are establishing an operation, managing ongoing obligations, or planning complex transactions, we provide clarity, control, and actionable solutions.",
       image: "https://res.cloudinary.com/ddgzjzd9q/image/upload/v1764275560/Tendering_Bid_Support_uhigva.png",
       benefits: [
-        "Tender Document Preparation",
-        "Competitive Bid Analysis",
-        "Proposal Writing & Formatting",
-        "Contract Negotiation Support"
+        "Tax Determination & Advice",
+        "Compliance Monitoring",
+        "TRA Correspondence Management",
+        "Representation at Appeals",
+        "Tax Health Check & Due Diligence",
+        "Corporate Tax Planning",
+        "VAT & Customs Advisory",
+        "Tax Audits Support"
       ]
     },
     {
-      title: "Local Partnership Structuring",
-      shortDesc: "Build strong, compliant JV alliances.",
-      fullDesc: "Form strategic joint ventures with vetted local partners. We ensure legal compliance, fair agreements, and sustainable partnerships that benefit all stakeholders.",
+      title: "Immigration Services",
+      shortDesc: "Simplifying Cross-Border Mobility and Compliance",
+      fullDesc: "We partner with you at every step of the immigration journey, from planning to arrival, ensuring compliance, efficiency, and peace of mind. We offer a full range of immigration and related compliance services.",
       image: "https://res.cloudinary.com/ddgzjzd9q/image/upload/v1764275560/Local_Partnership_Structuring_sxki3z.png",
       benefits: [
-        "Local Partner Identification",
-        "Joint Venture Agreements",
-        "Legal Compliance Review",
-        "Partnership Due Diligence"
+        "Work and Residence Permit Applications",
+        "Special and Dependent Passes",
+        "Visa Applications (Business, Tourist, Transit, Temporary)",
+        "NIDA Registration and ID Processing",
+        "Immigration Return Filings for Non-Citizens",
+        "Passport Endorsement Services",
+        "Advisory on Work and Residence Permit Matters"
       ]
     },
     {
-      title: "Procurement & Logistics",
-      shortDesc: "Source, supply, and deliver across Tanzania.",
-      fullDesc: "Reliable supply chain management from sourcing to delivery. We connect you with trusted suppliers and manage logistics across Tanzania's challenging terrain.",
+      title: "Company Secretarial Services",
+      shortDesc: "Company Registration and Compliance Support",
+      fullDesc: "We provide comprehensive company secretarial services to help you establish and maintain your business presence in Tanzania with full regulatory compliance.",
       image: "https://res.cloudinary.com/ddgzjzd9q/image/upload/v1764275561/Procurement_Logistics_z7v8zo.png",
       benefits: [
-        "Equipment & Materials Sourcing",
-        "Supply Chain Management",
-        "Customs & Import Clearance",
-        "On-site Delivery Coordination"
-      ]
-    },
-    {
-      title: "ESG & Sustainability Advisory",
-      shortDesc: "Develop ethical and community-aligned operations.",
-      fullDesc: "Build operations that respect the environment and empower local communities. We help you align with global ESG standards while creating lasting positive impact.",
-      image: "https://res.cloudinary.com/ddgzjzd9q/image/upload/v1764275560/ESG_Sustainability_Advisory_aei3o0.png",
-      benefits: [
-        "Environmental Impact Mitigation",
-        "Community Engagement Programs",
-        "ESG Reporting & Compliance",
-        "Sustainable Operations Planning"
+        "Company Registration",
+        "TRA - TIN & VAT Registrations",
+        "VAT Certificate Obtaining",
+        "Tax Clearance Certificate",
+        "Bank Account Opening Assistance",
+        "Financial Statements Filing",
+        "Legal Tax Health Check",
+        "Registered Business Address"
       ]
     }
   ];
@@ -92,7 +95,7 @@ export default function ServicesPage() {
               Our Services
             </h1>
             <p className="font-inter text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] leading-[26px] sm:leading-[30px] md:leading-[34px] lg:leading-[38px] text-[#585858] max-w-[800px] tracking-[0.4px]">
-              Comprehensive solutions for global investors entering Tanzania's mining sector
+              Comprehensive Legal, Tax & Immigration solutions for businesses operating in Tanzania
             </p>
           </div>
         </div>
@@ -189,10 +192,10 @@ export default function ServicesPage() {
         <div className="max-w-[1440px] mx-auto px-[40px] sm:px-[60px] md:px-[80px] lg:px-[100px] xl:px-[120px] relative z-10">
           <div className="text-center max-w-[900px] mx-auto">
             <h2 className="font-urbanist font-bold text-[32px] sm:text-[38px] md:text-[44px] lg:text-[52px] text-[#85640e] mb-6 tracking-[1.6px] leading-[42px] sm:leading-[48px] md:leading-[54px] lg:leading-[62px]">
-              Ready to Start Your Mining Project?
+              Ready to Get Started?
             </h2>
             <p className="font-inter text-[16px] sm:text-[18px] md:text-[20px] text-[#585858] mb-10 leading-[28px] sm:leading-[32px] tracking-[0.4px]">
-              Let's discuss how we can support your investment in Tanzania's mining sector
+              Contact our Client Services Team to discuss how we can support your business in Tanzania
             </p>
             <a
               href="#contact"

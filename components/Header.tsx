@@ -37,7 +37,7 @@ export default function Header() {
         <div className="max-w-[1440px] mx-auto h-full flex items-center justify-between px-5 sm:px-6 lg:px-8">
           {/* Logo */}
           <div className="font-source-serif text-[24px] sm:text-[28px] lg:text-[35px] text-[#1d1d1b] leading-normal z-50">
-            World<span className="italic">Shine</span>
+            Serena <span className="italic">Attorneys</span>
           </div>
 
           {/* Desktop Navigation */}

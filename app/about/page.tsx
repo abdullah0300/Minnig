@@ -6,19 +6,19 @@ import Footer from "@/components/Footer";
 export default function AboutPage() {
   const achievements = [
     {
-      number: "10+",
-      title: "Successful Licence Facilitation Projects",
-      description: "We've successfully guided international investors through Tanzania's complex licensing process."
+      number: "150+",
+      title: "Corporate Clients Served",
+      description: "We've successfully supported local and multinational companies with comprehensive legal, tax, and immigration solutions."
     },
     {
       number: "100%",
-      title: "Regulatory Compliance Record",
-      description: "Every project we manage maintains full compliance with local and international standards."
+      title: "Client Success Rate in Regulatory Compliance",
+      description: "Every client we serve maintains full compliance with Tanzania's legal, tax, and regulatory requirements."
     },
     {
-      number: "50+",
-      title: "Active Partnerships Across East Africa",
-      description: "Strong network of vetted local partners and stakeholders throughout the region."
+      number: "12+",
+      title: "Years of Excellence",
+      description: "Since 2012, we've been delivering strategic guidance and practical solutions across multiple sectors in Tanzania."
     }
   ];
 
@@ -41,7 +41,7 @@ export default function AboutPage() {
         </svg>
       ),
       title: "Expertise",
-      description: "Deep knowledge of Tanzania's mining sector and regulatory framework."
+      description: "Deep knowledge of Tanzania's legal, tax, and regulatory framework."
     },
     {
       icon: (
@@ -53,7 +53,7 @@ export default function AboutPage() {
         </svg>
       ),
       title: "Partnership",
-      description: "Building lasting relationships with investors and local communities."
+      description: "Building lasting relationships with businesses and providing client-centered collaboration."
     },
     {
       icon: (
@@ -89,7 +89,7 @@ export default function AboutPage() {
               About Us
             </h1>
             <p className="font-inter text-[16px] sm:text-[18px] md:text-[20px] lg:text-[22px] leading-[26px] sm:leading-[30px] md:leading-[34px] lg:leading-[38px] text-[#585858] max-w-[800px] tracking-[0.4px]">
-              Your trusted gateway to Tanzania's mining sector
+              Legal, Tax & Immigration Services in Tanzania
             </p>
           </div>
         </div>
@@ -105,10 +105,13 @@ export default function AboutPage() {
                 Who We Are
               </h2>
               <p className="font-inter text-[16px] sm:text-[17px] md:text-[18px] lg:text-[19px] leading-[28px] sm:leading-[30px] md:leading-[32px] text-[#1d1d1b] mb-6 tracking-[0.4px]">
-                WorldShine Mining Company Limited is a Tanzanian liaison and project management firm that simplifies entry into the mining sector. We connect international investors with compliant licences, local partnerships, and supply networks — ensuring every project runs efficiently and responsibly.
+                At Serena Attorneys, we support local businesses and multinational corporations operating in Tanzania in navigating complex legal, regulatory, and tax environments with clarity and confidence.
+              </p>
+              <p className="font-inter text-[16px] sm:text-[17px] md:text-[18px] lg:text-[19px] leading-[28px] sm:leading-[30px] md:leading-[32px] text-[#1d1d1b] mb-6 tracking-[0.4px]">
+                Founded in 2012, our team of seasoned lawyers and tax professionals delivers strategic guidance and practical solutions tailored to each client&apos;s unique needs. From corporate structuring and regulatory compliance to tax planning and immigration support, we handle the details, so you can focus on achieving your goals.
               </p>
               <p className="font-inter text-[16px] sm:text-[17px] md:text-[18px] lg:text-[19px] leading-[28px] sm:leading-[30px] md:leading-[32px] text-[#1d1d1b] tracking-[0.4px]">
-                With deep regulatory access, proven commercial experience, and trusted local networks, we deliver seamless project execution from planning to operation. Our team combines international best practices with local expertise to help you navigate Tanzania's mining landscape with confidence.
+                Whether you&apos;re a growing enterprise or an established multinational, we are your long-term partner in building sustainable success. We manage the entire compliance process on your behalf, ensuring a smooth journey every step of the way.
               </p>
             </div>
 
@@ -117,7 +120,7 @@ export default function AboutPage() {
               <div className="w-full h-[400px] sm:h-[450px] lg:h-[500px] rounded-2xl overflow-hidden">
                 <img
                   src="https://res.cloudinary.com/ddgzjzd9q/image/upload/v1764275560/Licensing_Compliance_sjtxrw.png"
-                  alt="WorldShine Mining"
+                  alt="Serena Attorneys"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -187,7 +190,7 @@ export default function AboutPage() {
               Let's Work Together
             </h2>
             <p className="font-inter text-[16px] sm:text-[18px] md:text-[20px] text-[#585858] mb-10 leading-[28px] sm:leading-[32px] tracking-[0.4px]">
-              Ready to explore opportunities in Tanzania's mining sector? Get in touch with our team today.
+              Ready to navigate Tanzania's legal, tax, and regulatory landscape? Get in touch with our team today.
             </p>
             <a
               href="/contact"

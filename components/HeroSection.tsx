@@ -42,7 +42,7 @@ export default function HeroSection() {
             isAnimated ? "opacity-100 translate-y-0" : "opacity-0 -translate-y-4"
           }`}
         >
-          Your trusted gateway to Tanzania&apos;s
+          Legal, Tax & Immigration Services
         </p>
 
         {/* Main Heading - MIN (starts next to center, moves to LEFT) */}
@@ -123,7 +123,7 @@ export default function HeroSection() {
             isAnimated ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"
           }`}
         >
-          Sector
+          Excellence
         </p>
 
         {/* Description */}
@@ -133,8 +133,7 @@ export default function HeroSection() {
           }`}
           style={{ transitionDelay: "2200ms" }}
         >
-          Enabling global investors with licences, partnerships, and operational
-          support to thrive in Tanzania&apos;s resource market.
+          We help local enterprises and multinational companies operating in Tanzania navigate complex legal, regulatory, and tax challenges with confidence and clarity.
         </p>
 
         {/* CTA Button - styled like Figma */}
@@ -144,7 +143,7 @@ export default function HeroSection() {
           }`}
           style={{ transitionDelay: "2400ms" }}
         >
-          Explore Services
+          Contact Us
         </button>
       </div>
     </section>

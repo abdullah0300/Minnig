@@ -28,7 +28,7 @@ export default function WhoWeAre() {
 
             {/* Subtitle */}
             <p className="font-urbanist font-semibold text-[16px] xs:text-[18px] sm:text-[20px] md:text-[24px] lg:text-[28px] leading-[24px] xs:leading-[28px] sm:leading-[30px] md:leading-[33px] lg:leading-[35px] text-[#585858] tracking-[0.48px] xs:tracking-[0.54px] sm:tracking-[0.6px] md:tracking-[0.72px] lg:tracking-[0.84px] text-center max-w-[280px] xs:max-w-[350px] sm:max-w-[500px] md:max-w-[700px] lg:max-w-[900px] mx-auto px-2 relative z-10">
-              Building Bridges Between Global Investors & Local Opportunities
+              Legal, Tax & Immigration Services
             </p>
           </div>
 
@@ -36,8 +36,11 @@ export default function WhoWeAre() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 lg:gap-16 items-start max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-36">
             {/* Left Column - Description */}
             <div className="order-2 lg:order-1">
+              <p className="font-arial text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[22px] xs:leading-[24px] sm:leading-[26px] md:leading-[30px] lg:leading-[33px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px] mb-6">
+                At Serena Attorneys, we support local businesses and multinational corporations operating in Tanzania in navigating complex legal, regulatory, and tax environments with clarity and confidence.
+              </p>
               <p className="font-arial text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[22px] xs:leading-[24px] sm:leading-[26px] md:leading-[30px] lg:leading-[33px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
-                WorldShine Mining Company Limited is a Tanzanian liaison and project management firm that simplifies entry into the mining sector. We connect international investors with compliant licences, local partnerships, and supply networks — ensuring every project runs efficiently and responsibly.
+                Founded in 2012, our team of seasoned lawyers and tax professionals delivers strategic guidance and practical solutions tailored to each client&apos;s unique needs. From corporate structuring and regulatory compliance to tax planning and immigration support, we handle the details, so you can focus on achieving your goals.
               </p>
             </div>
 
@@ -59,7 +62,7 @@ export default function WhoWeAre() {
                   </svg>
                 </div>
                 <p className="font-arial font-normal text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[20px] xs:leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[30px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
-                  10+ Successful Licence Facilitation Project
+                  150+ Corporate Clients Served
                 </p>
               </div>
 
@@ -79,7 +82,7 @@ export default function WhoWeAre() {
                   </svg>
                 </div>
                 <p className="font-arial font-normal text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[20px] xs:leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[30px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
-                  100% Regulatory Compliance Record
+                  100% Client Success Rate in Regulatory Compliance
                 </p>
               </div>
 
@@ -99,7 +102,7 @@ export default function WhoWeAre() {
                   </svg>
                 </div>
                 <p className="font-arial font-normal text-[14px] xs:text-[15px] sm:text-[16px] md:text-[18px] lg:text-[20px] leading-[20px] xs:leading-[22px] sm:leading-[24px] md:leading-[26px] lg:leading-[30px] text-[#1d1d1d] tracking-[0.28px] xs:tracking-[0.3px] sm:tracking-[0.32px] md:tracking-[0.36px] lg:tracking-[0.4px]">
-                  Active Partnerships Across East Africa
+                  Trusted by Local and Multinational Companies
                 </p>
               </div>
             </div>
